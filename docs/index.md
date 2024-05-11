@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: App Store
-      link: /markdown-examples
+      link: https://apps.apple.com/us/app/readary/id6449085999
     - theme: alt
       text: 快速使用
-      link: /api-examples
+      link: /guide/index
 
 features:
   - title: 自定义列表
