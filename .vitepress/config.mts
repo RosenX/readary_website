@@ -11,12 +11,13 @@ export default defineConfig({
   cleanUrls: true,
   head: [["link", { rel: "icon", href: "logo.jpg" }]],
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: nav,
     sidebar: sidebar,
-
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
+    outline: {
+      label: "页面导航",
+    }
   },
 });
