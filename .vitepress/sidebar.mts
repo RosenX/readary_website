@@ -20,11 +20,19 @@ export default {
       ],
     },
     {
-        text: "使用协议",
-        items: [
-          { text: "隐私协议", link: "/guide/terms/privacy" },
-          { text: "用户协议", link: "/guide/terms/user_term" },
-        ],
-      },
+      text: "使用协议",
+      items: [
+        { text: "隐私协议", link: "/guide/terms/privacy" },
+        { text: "用户协议", link: "/guide/terms/user_term" },
+      ],
+    },
+  ],
+  "/library": [
+    {
+      text: "分类",
+      items: [
+        { text: "博客", link: "/library/blog" },
+      ],
+    },
   ],
 };

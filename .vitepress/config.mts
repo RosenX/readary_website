@@ -11,13 +11,21 @@ export default defineConfig({
   cleanUrls: true,
   head: [["link", { rel: "icon", href: "logo.jpg" }]],
   themeConfig: {
+    logo: "logo.jpg",
     nav: nav,
     sidebar: sidebar,
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "x", link: "https://twitter.com/Shanshi66"},
     ],
+    search: {
+      provider: 'local'
+    },
     outline: {
       label: "页面导航",
+    },
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇',
     }
   },
 });
