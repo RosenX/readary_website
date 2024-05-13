@@ -10,6 +10,7 @@ export default defineConfig({
   lang: "zh-CN",
   cleanUrls: true,
   head: [["link", { rel: "icon", href: "logo.jpg" }]],
+  lastUpdated: true,
   themeConfig: {
     logo: "logo.jpg",
     nav: nav,
@@ -26,6 +27,12 @@ export default defineConfig({
     docFooter: {
       prev: '上一篇',
       next: '下一篇',
+    },
+    lastUpdated: {
+      text: '最后更新',
+      formatOptions: {
+        dateStyle: 'short',
+      }
     }
   },
 });
