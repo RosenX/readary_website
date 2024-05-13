@@ -27,12 +27,4 @@ export default {
       ],
     },
   ],
-  "/library": [
-    {
-      text: "分类",
-      items: [
-        { text: "博客", link: "/library/blog" },
-      ],
-    },
-  ],
 };
