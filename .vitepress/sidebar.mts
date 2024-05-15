@@ -38,6 +38,7 @@ export default {
     {
       text: "2.0 版本",
       items: [
+        { text: "2.6.2", link: "/update/v2/2-6-2" },
         { text: "2.6.1", link: "/update/v2/2-6-1" },
         { text: "2.6.0", link: "/update/v2/2-6-0" },
         { text: "2.5.3", link: "/update/v2/2-5-3" },
