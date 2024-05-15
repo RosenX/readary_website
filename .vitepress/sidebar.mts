@@ -23,7 +23,7 @@ export default {
       text: "系统",
       items: [
         { text: "更新机制", link: "/guide/system/update" },
-        { text: "稍后读", link: "/guide/system/storage" },
+        { text: "存储", link: "/guide/system/storage" },
       ],
     },
     {
