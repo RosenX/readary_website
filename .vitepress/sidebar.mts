@@ -11,12 +11,19 @@ export default {
       ],
     },
     {
-      text: "服务设置",
+      text: "服务",
       items: [
         { text: "翻译", link: "/guide/service/translate" },
         { text: "稍后读", link: "/guide/service/read_later" },
         { text: "同步", link: "/guide/service/sync" },
         { text: "摘要", link: "/guide/service/summary" },
+      ],
+    },
+    {
+      text: "系统",
+      items: [
+        { text: "更新机制", link: "/guide/system/update" },
+        { text: "稍后读", link: "/guide/system/storage" },
       ],
     },
     {
