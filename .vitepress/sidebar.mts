@@ -78,4 +78,12 @@ export default {
       collapsed: true,
     },
   ],
+  "/blog/": [
+    {
+      text: "分类",
+      items: [
+        { text: "产品故事", link: "/blog/product_story/index" },
+      ],
+    },
+  ],
 };
