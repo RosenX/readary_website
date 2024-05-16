@@ -9,11 +9,17 @@ export default defineConfig({
   srcDir: "docs",
   lang: "zh-CN",
   cleanUrls: true,
+  sitemap: {
+    hostname: "https://readary.top",
+  },
   head: [
     ["link", { rel: "icon", href: "logo.jpg" }],
     [
       "script",
-      { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-EGKX0P7QM0" },
+      {
+        async: "",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-EGKX0P7QM0",
+      },
     ],
     [
       "script",
