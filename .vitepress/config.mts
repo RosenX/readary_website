@@ -13,7 +13,7 @@ export default defineConfig({
     hostname: "https://readary.top",
   },
   head: [
-    ["link", { rel: "icon", href: "logo.jpg" }],
+    ["link", { rel: "icon", href: "/logo.jpg" }],
     [
       "script",
       {
