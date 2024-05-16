@@ -9,30 +9,42 @@ export default defineConfig({
   srcDir: "docs",
   lang: "zh-CN",
   cleanUrls: true,
-  head: [["link", { rel: "icon", href: "logo.jpg" }]],
+  head: [
+    ["link", { rel: "icon", href: "logo.jpg" }],
+    [
+      "script",
+      { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-EGKX0P7QM0" },
+    ],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EGKX0P7QM0');`,
+    ],
+  ],
   lastUpdated: true,
   themeConfig: {
     logo: "logo.jpg",
     nav: nav,
     sidebar: sidebar,
-    socialLinks: [
-      { icon: "x", link: "https://twitter.com/Shanshi66"},
-    ],
+    socialLinks: [{ icon: "x", link: "https://twitter.com/Shanshi66" }],
     search: {
-      provider: 'local'
+      provider: "local",
     },
     outline: {
       label: "页面导航",
     },
     docFooter: {
-      prev: '上一篇',
-      next: '下一篇',
+      prev: "上一篇",
+      next: "下一篇",
     },
     lastUpdated: {
-      text: '最后更新',
+      text: "最后更新",
       formatOptions: {
-        dateStyle: 'short',
-      }
-    }
+        dateStyle: "short",
+      },
+    },
   },
 });
